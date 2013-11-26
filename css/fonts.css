@@ -1,0 +1,14 @@
+@font-face {
+    font-family:    'NeoRegular';
+    url('../fonts/NeoSansCyr-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:    'NeoBold';
+    url('../fonts/NeoSansCyr-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:    'NeoItalic';
+    url('../fonts/NeoSansCyr-Italic.ttf') format('truetype');
+}

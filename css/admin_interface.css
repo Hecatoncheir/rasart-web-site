@@ -1,0 +1,80 @@
+.admin_interface {min-height:   70px;}
+
+.admin_interface > nav {height: 75px;}
+
+.admin_interface > nav > a {float:  right;}
+.admin_interface > nav > a:hover {color:   #30081b;}
+
+.admin_interface > nav .admin {
+    background:         url('../img/admin/admin_bg.jpg') no-repeat bottom right, url('../img/admin/admin_bg.jpg') repeat-x center;
+    font-family:        NeoBold;
+    font-size:          14px;
+    height:             23px;
+    position:           relative;
+    margin-top:         23px;
+    margin-left:        16px;
+    float:              right;
+
+    padding:            0 5px;
+    padding-top:        6px;
+    padding-right:      7px;
+
+    display:            block;
+    color:              #f7f4e3;
+}
+
+.admin_interface > nav .admin:before {
+    width:          20px;
+    height:         29px;
+    content:        "";
+    background:     url(../img/admin/admin_bg.jpg) left top;
+    position:       absolute;
+    top:            0px;
+    left:           -16px;
+}
+
+.admin_interface > nav ul {
+    display:        block;
+    float:          right;
+    text-align:     right;
+    font-family:    NeoBold;
+    font-size:      14px;
+    margin-top:     9px;
+    min-width:      55px;
+    min-height:     49px;
+    padding-right:  50px;
+}
+
+.admin_interface > nav ul a {color:   #30081b;}
+.admin_interface > nav ul a:hover {color:   #970d2d;}
+
+.admin_interface > nav ul li {
+    display:        block;
+    margin-bottom:  2px;
+}
+
+/* Стилизация меню */
+
+.one_line {
+    background:     url(../img/admin/admin_nav_one_line.png) no-repeat right center;
+}
+
+.two_line {
+    background:     url(../img/admin/admin_nav_two_line.png) no-repeat right center;
+}
+
+.two_line li:nth-child(2),
+.three_line li:nth-child(2) {
+    margin-right:   -10px;
+}
+
+.two_line li:nth-child(3){
+    margin-right:   3px;
+}
+
+.three_line {
+    background:     url(../img/admin/admin_nav_three_line.png) no-repeat right center;
+    margin-right:   5px;
+}
+
+

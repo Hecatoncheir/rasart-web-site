@@ -1,0 +1,251 @@
+#main > header {
+    background:     url(../img/header_bg.jpg);
+    border-top:     5px solid #30081b;
+    border-bottom:  5px solid #30081b;
+}
+
+#main > header nav {
+    background:     url(../img/nav/main_nav.png) no-repeat;
+    width:          971px;
+    height:         317px;
+    margin-top:     20px;
+    position:       relative;
+}
+
+#main > header nav a {
+    position:               absolute;
+    display:                block;
+    background-position:    left;
+}
+
+#main > header nav a:hover {background-position:    right;}
+
+.sites {
+    background:     url(../img/nav/nav_sites.png) no-repeat;
+    width:          132px;
+    height:         27px;
+    top:            121px;
+    left:           44px;
+}
+
+.print {
+    background:     url(../img/nav/print.png) no-repeat;
+    width:          183px;
+    height:         68px;
+    top:            210px;
+    left:           22px;
+}
+
+.me {
+    background:     url(../img/nav/me.png) no-repeat;
+    width:          46px;
+    height:         68px;
+    top:            115px;
+    left:           277px;
+}
+
+.ror {
+    background:     url(../img/nav/ror.png) no-repeat;
+    width:          144px;
+    height:         87px;
+    top:            110px;
+    left:           457px;
+}
+
+.new_tech {
+    background:     url(../img/nav/new_tech.png) no-repeat;
+    width:          268px;
+    height:         24px;
+    top:            217px;
+    left:           330px;
+}
+
+#bottom {
+    background:     url(../img/header_bottom_bg.png) no-repeat;
+    width:          946px !important;
+    height:         167px;
+    margin-top:     -35px;
+    margin-bottom:  -6px;
+}
+
+#bottom a {
+    background:                 #30081b;
+    color:                      #f8f3e3;
+    text-align:                 center;
+    -webkit-border-radius:      6px;
+    -moz-border-radius:         6px;
+    border-radius:              6px;
+    padding:                    5px 10px;
+    font-size:                  14px;
+    font-family:                NeoBold;
+    margin-top:                 100px;
+    border:                     2px solid transparent;
+}
+
+#bottom a:hover {
+    border:         2px solid #fff;
+}
+
+#bottom .feedback_path {
+    float:          right;
+    position:       relative;
+    margin-right:   120px;
+}
+
+#bottom .feedback_path:after {
+    width:          0;
+    height:         0;
+    position:       absolute;
+    content:        "";
+    right:          -10px;
+    top:            3px;
+    border-top:     10px solid transparent;
+    border-left:    10px solid #30081b;
+    border-bottom:  10px solid transparent;
+}
+
+#bottom .blog_path {
+    float:          left;
+    position:       relative;
+    margin-left:    120px;
+}
+
+#main .mid {
+    background:       url('../img/r_logo.png') no-repeat center center;
+    min-height:     345px;
+    clear:          both;
+    padding:        60px 0 0 0;
+
+}
+
+.mid article {
+    display:        block;
+    font-family:    'NeoBold';
+    width:          291px;
+    font-size:      16px;
+    color:          #30081b;
+}
+
+.mid .new_post {
+    margin-left:        10px;
+    padding:            0px 10px 30px 10px;
+    -webkit-box-shadow: 1px 1px 2px 0px #dbd6c5;
+    -moz-box-shadow:    1px 1px 2px 0px #dbd6c5;
+    box-shadow:         1px 1px 2px 0px #dbd6c5;
+    float:              left;
+    background:         #fff;
+    width:              281px;
+}
+
+.mid .new_post h1 {
+    color:          #31081a;
+    font-family:    NeoItalic;
+    position:       relative;
+    text-align:     center;
+    font-size:      18px;
+    padding-bottom: 10px;
+    background:     url(../img/mid_article_separator.png) no-repeat center bottom;
+}
+
+.mid article h1 a {color:   #30081b;}
+.mid article h1 a:hover {color:   #920b2b;}
+
+.mid article a,
+.mid article span {color:  #920b2b;}
+
+.mid .new_post h1:before {
+    content:        "";
+    width:          0;
+    height:         0;
+    position:       absolute;
+    top:            -18px;
+    right:          -10px;
+    border-top:     45px solid #31081a;
+    border-left:    45px solid transparent;
+}
+
+.mid .new_post h1:after {
+    content:        "";
+    width:          0;
+    height:         0;
+    position:       absolute;
+    top:            -8px;
+    right:          0px;
+    border-top:     15px solid #fff;
+    border-left:    15px solid transparent;
+}
+
+.mid .about_me {
+    float:          right;
+    background:     none;
+    color:          #5c081c;
+    width:          328px;
+}
+
+.mid .about_me span {color: #30081b;}
+.mid .about_me .tooltip {
+    color:          #fff;
+    font-size:      12px !important;
+}
+
+.mid .about_me h1 {
+    border-bottom:  1px solid #d0ccbf;
+    padding-bottom: 10px;
+    font-size:      14px;
+}
+
+.mid .about_me h1 span {
+    background:                 #30081b;
+    color:                      #f8f3e3;
+    -webkit-border-radius:      6px;
+    -moz-border-radius:         6px;
+    border-radius:              6px;
+    padding:                    5px 10px;
+    font-family:                NeoBold;
+}
+
+
+#container > footer {
+    background:                 url(../img/footer_bg.jpg);
+    min-height:                 244px;
+    margin-bottom:              30px;
+    clear:                      both;
+    border-top:     5px solid #30081b;
+    border-bottom:  5px solid #30081b;
+}
+
+#container > footer .tech {
+    background:                 url(../img/footer_ruby.png) no-repeat center center;
+    min-height:                 244px;
+    padding:                    20px 0 10px 0;
+}
+
+#container > footer article {
+    color:      #fff;
+    font-size:  14px;
+    font-family:NeoBold;
+    width:      328px;
+}
+
+#container > footer article h1 {
+    border-bottom:      1px solid #fff;
+    padding-bottom:     5px;
+    font-size:          18px;
+    color:              #f8f3e3;
+}
+
+#container > footer article:first-child {float: left;}
+#container > footer article:last-child {float:  right;}
+
+body > footer .block {
+    display:        block;
+    float:          right;
+    color:          #860a27;
+    text-align:     right;
+    margin-bottom:  30px;
+    font-family:    NeoBold;
+    margin-left:    20px;
+}
+
+body > footer .block span,
+#container > footer article span {color:   #30081b;}
